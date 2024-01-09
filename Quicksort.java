@@ -29,7 +29,7 @@ public class Quicksort{
         }
     }
     public static void main(String[] args) {
-        int[] arr ={6,3,9,5,2,8};
+        int[] arr ={6,3,9,5,2,};
         int n=arr.length;
         quicksort(arr, 0, n-1);
         for(int i=0;i<n;i++){
