@@ -16,6 +16,7 @@ public class Arraysize {
         
         for(int i=size;i>pos;i--){
             a[i+1]=a[i];
+            System.out.println(a[i]);
 
         }a[pos]=s.nextInt();
         for(int i=0;i<a.length;i++){

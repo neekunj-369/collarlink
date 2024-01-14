@@ -9,7 +9,6 @@ public class Quicksort{
                 int temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
-
             }
         }
         i++;
@@ -28,18 +27,13 @@ public class Quicksort{
             quicksort(arr, pidx+1, high);
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] arr ={6,3,9,5,2,};
         int n=arr.length;
         quicksort(arr, 0, n-1);
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
-        }
-
-            
-        
-
-
-
+        }       
+      
     }
 }
